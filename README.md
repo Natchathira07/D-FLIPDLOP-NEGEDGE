@@ -37,8 +37,8 @@ PROGRAM
 Developed by:HALIMA HARISHA A
 
 RegisterNumber:24901005
-
-...module D(D,Clock,reset,Q);
+~~~
+module D(D,Clock,reset,Q);
 input D,Clock,reset;
 output reg Q;
 always@(negedge Clock)
@@ -47,7 +47,7 @@ Q<=0;
 else
 Q<=D;
 endmodule
-...
+~~~
 
 
 RTL LOGIC FOR FLIPFLOPS

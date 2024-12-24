@@ -38,7 +38,7 @@ Developed by: VD NATCHATHIRA
 
 RegisterNumber: 24900864
 
-...module D(D,Clock,reset,Q); input D,Clock,reset; output reg Q; always@(negedge Clock) if(!reset) Q<=0; else Q<=D; endmodule ...
+...module D(D,Clock,reset,Q); input D,Clock,reset; output reg Q; always@(negedge Clock) if(!reset) Q<=0; else Q<=D; endmodule ....
 
 
 
